@@ -1,3 +1,27 @@
+# Python
+*.pyc
+__pycache__
+*.log
+.ipynb_checkpoints
+
+# macOS
+*.DS_Store
+
+# Clawpack
+*.data
+.output
+.data
+.plots
+xgeoclaw
+xgeoclaw.dSYM
+_output/
+_plots/
+*.asc
+*.tt3
+*.tt1
+*.xyz
+*.nc
+
 # Prerequisites
 *.d
 
@@ -20,13 +44,3 @@
 *.mod
 *.smod
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
